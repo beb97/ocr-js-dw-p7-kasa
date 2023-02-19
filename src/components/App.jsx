@@ -1,6 +1,6 @@
-import "../styles/main.scss";
 import Home from "../pages/Home.jsx";
-import Error from "./Error";
+import About from "../pages/About.jsx";
+import Page404 from "../pages/P404.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -8,7 +8,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="*" element={<Error />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="*" element={<Page404 />} />
       </Routes>
     </BrowserRouter>
   );

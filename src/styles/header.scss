@@ -1,0 +1,22 @@
+@import './index.scss';
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4em;
+    letter-spacing: 0.2em;
+}
+
+nav a{
+    margin: 0px 10px;
+}
