@@ -1,7 +1,7 @@
 #banner {
     height: 150px;
     background-size: cover;
-    width: 90vw;
+    width: clamp(200px, 800px, 100vw);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,4 +11,5 @@
     flex-wrap: wrap;
     text-align: center;
     max-width: 800px;
+    margin-bottom: 1em;
 }

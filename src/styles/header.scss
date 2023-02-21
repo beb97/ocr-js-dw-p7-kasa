@@ -5,8 +5,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
+    width: clamp(200px, 1200px, 100vw);
     flex-wrap: wrap;
 }
 

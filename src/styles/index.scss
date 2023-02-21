@@ -5,11 +5,17 @@
   margin: 0px;
 }
 
+html {
+  width: 100vw;
+  box-sizing: border-box;
+}
+
 body {
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
   color: $color-primary;
+  overflow-x: hidden;
 }
 
 #root {

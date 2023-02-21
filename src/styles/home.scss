@@ -1,14 +1,12 @@
 @import './index.scss';
 
 main {
-  flex: 1;
+  // flex: 1;
+  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   row-gap: 10px;
-
   max-width: 800px;
-
 }

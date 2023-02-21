@@ -6,8 +6,8 @@ const Collapse = (props) => {
     <details>
       <summary>
         <span>{props.titre}</span>
-        <span>v</span>
-        <span>^</span>
+        <i className="las la-angle-double-down"></i>
+        <i className="las la-angle-double-up"></i>
       </summary>
       <p>{props.texte}</p>
       {/* <summary>

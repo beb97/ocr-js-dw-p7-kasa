@@ -1,13 +1,21 @@
+#location {
+    // align-items: normal;
+}
+
 .location_img {
-    max-width: 800px;
+    width: clamp(200px, 800px, 100vw);
     max-height: 400px;
     object-fit: cover;
     border-radius: 1em;
 }
 
 .host_img {
-    max-width: 800px;
-    max-height: 400px;
+    width: 100px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+h2 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }

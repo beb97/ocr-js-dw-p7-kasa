@@ -4,9 +4,11 @@ import Collapse from "../components/Collapse";
 // import Tag from "../components/Tag";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Slideshow from "../components/Slideshow";
 import locations from "../data/logements.json";
 import "../styles/tag.scss";
 import "../styles/location.scss";
+import Stars from "../components/Stars";
 
 const Location = () => {
   const { id } = useParams();
@@ -30,28 +32,21 @@ const Location = () => {
   return (
     <Fragment>
       <Header />
-      <main>
-        <img className="location_img" alt="salon" src={location.cover}></img>
+      <main id="location">
+        <Slideshow pictures={location.pictures}/>
         <h2>{location.title}</h2>
         <div>{location.location} </div>
         <div>{location.host.name} </div>
-        <div>
-          <i className="las la-star"></i>
-          <i className="las la-star"></i>
-          <i className="lar la-star"></i>
-          <i className="lar la-star"></i>
-          <i className="lar la-star"></i>
-        </div>
+        <Stars rating={location.rating} />
         <img className="host_img" alt="hote" src={location.host.picture}></img>
-        <div>
+        <div className="tags">
           {location.tags.map((tag) => (
-            <span className="tag"> {tag}</span>
+            <span className="tag" key={tag}>
+              {" "}
+              {tag}
+            </span>
           ))}
         </div>
-        {/* <Tag texte="Cozy" /> */}
-        {/* {location.tags.map((tag) => (
-            <span className="tag"> {tag}</span>
-          ))} */}
         <Collapse titre="Description" texte={location.description} />
         <Collapse titre="Equipements" texte={location.equipments.toString()} />
       </main>

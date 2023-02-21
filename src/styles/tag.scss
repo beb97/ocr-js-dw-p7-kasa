@@ -2,6 +2,18 @@
     border-radius: 1em;
     color : #F7F7F7;
     background: #FF6060;
-    padding: 0.3em 2em;
+    padding: 0.1em 2em;
     // flex:1;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.tag:hover {
+background: #7e2222;
 }
