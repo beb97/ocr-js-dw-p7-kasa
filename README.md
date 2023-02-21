@@ -13,5 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Builds the app for production to the `build` folder.\
 
 ### `deploiement sur git hub`
+https://blog.logrocket.com/deploying-react-apps-github-pages/
 
 =>
