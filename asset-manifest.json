@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/beb97/ocr-js-dw-p7-kasa/static/css/main.6fa7493b.css",
-    "main.js": "/beb97/ocr-js-dw-p7-kasa/static/js/main.80b91bb5.js",
-    "static/js/787.0ce615c0.chunk.js": "/beb97/ocr-js-dw-p7-kasa/static/js/787.0ce615c0.chunk.js",
-    "static/media/banner.png": "/beb97/ocr-js-dw-p7-kasa/static/media/banner.436892d1a6d8aa062e5c.png",
-    "index.html": "/beb97/ocr-js-dw-p7-kasa/index.html",
-    "main.6fa7493b.css.map": "/beb97/ocr-js-dw-p7-kasa/static/css/main.6fa7493b.css.map",
-    "main.80b91bb5.js.map": "/beb97/ocr-js-dw-p7-kasa/static/js/main.80b91bb5.js.map",
-    "787.0ce615c0.chunk.js.map": "/beb97/ocr-js-dw-p7-kasa/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/ocr-js-dw-p7-kasa/static/css/main.6fa7493b.css",
+    "main.js": "/ocr-js-dw-p7-kasa/static/js/main.5c9bada2.js",
+    "static/js/787.0ce615c0.chunk.js": "/ocr-js-dw-p7-kasa/static/js/787.0ce615c0.chunk.js",
+    "static/media/banner.png": "/ocr-js-dw-p7-kasa/static/media/banner.436892d1a6d8aa062e5c.png",
+    "index.html": "/ocr-js-dw-p7-kasa/index.html",
+    "main.6fa7493b.css.map": "/ocr-js-dw-p7-kasa/static/css/main.6fa7493b.css.map",
+    "main.5c9bada2.js.map": "/ocr-js-dw-p7-kasa/static/js/main.5c9bada2.js.map",
+    "787.0ce615c0.chunk.js.map": "/ocr-js-dw-p7-kasa/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fa7493b.css",
-    "static/js/main.80b91bb5.js"
+    "static/js/main.5c9bada2.js"
   ]
 }
