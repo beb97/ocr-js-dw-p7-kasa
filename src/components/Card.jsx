@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/card.scss";
-import homePic from "../assets/home.png";
 
-const Card = () => {
+import { useNavigate } from "react-router-dom";
+
+const Card = (props) => {
+  const navigate = useNavigate();
+
+  function HandleClick() {
+    navigate(`/location/${props.card.id}`);
+  }
+
+  useEffect(() => {
+    // console.log(props.card.id, " : ", props.card);
+  });
+
   return (
-    <article>
-      <img alt="img" src={homePic}></img>
-      <h3>Titre</h3>
+    <article onClick={HandleClick}>
+      <img alt="salon" className="card_img" src={props.card.cover}></img>
+      <h3>{props.card.title}</h3>
     </article>
   );
 };

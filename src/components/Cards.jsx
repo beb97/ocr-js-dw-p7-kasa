@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
+import "../styles/cards.scss";
 import Card from "./Card";
+import locations from "../data/logements.json";
 
 const Cards = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-    setCards([1, 2, 3]);
+    // console.log(locations);
+    setCards(locations);
   }, []);
 
   if (!cards) {
@@ -13,12 +16,11 @@ const Cards = () => {
   }
 
   return (
-    <div>
+    <section>
       {cards.map((card) => (
-        <Card />
+        <Card card={card} key={card.id} />
       ))}
-      Cards
-    </div>
+    </section>
   );
 };
 

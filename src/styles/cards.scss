@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  background-color: rgb(240, 239, 239);
+  border-radius: 1em;
+  padding: 1em;
+}

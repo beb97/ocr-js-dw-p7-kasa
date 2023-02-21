@@ -1,0 +1,41 @@
+details{
+    border-radius: 1em;
+    background: #F7F7F7;
+    color: #FF6060;
+    // flex:1;
+}
+
+summary {
+    border-radius: 1em;
+    background: #FF6060;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+summary::marker {
+  content: "";
+}
+
+details:not([open]) {
+}
+
+details[open] {
+    // padding: 1em;
+}
+
+p {
+    padding: 1em;
+}
+
+summary :nth-child(3) {
+    display: none;
+}
+
+details[open] summary :nth-child(2) {
+    display: none;
+}
+details[open] summary :nth-child(3) {
+    display: block;
+}
