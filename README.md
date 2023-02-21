@@ -14,5 +14,5 @@ Builds the app for production to the `build` folder.\
 
 ### `deploiement sur git hub`
 https://blog.logrocket.com/deploying-react-apps-github-pages/
-
 =>
+npm run deploy
